@@ -1,4 +1,7 @@
 # Definitely
+
+![Definitely](definitely.png)
+
 Call promise infinitely useful for Infinite Loading.
 
 ```js
