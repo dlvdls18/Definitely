@@ -7,13 +7,20 @@ Call promise infinitely useful for Infinite Loading
 ```
 
 # Documentation
+## Arguments
 Call the function `Definitely` with these **order** of **arguments**:
 
 **NOTE:** Every arguments are required.
 
 
-- `Promise` Class&lt;Promise&gt; - Promise to call
-- `Times` Number - When promise throws an error, the variable `runs` will increase. You can use this argument to call the onerror when this argument is equal or greater than the variable `runs`.
+```js
+Definitely(promise, times, onsuccess, onerror, delay);
+```
+
+- `Promise` Class&lt;Promise&gt; - Promise to call.
+- `Times` Number - Error limit when the promise rejected.
 - `Onsuccess` Function - When the promise resolved, this will called with the resolve arguments.
 - `Onerror` Function - When the expected loop is done, this will called with argument `Error Array` which has every error logs.
 - `Delay` Number - Loop delay
+
+When the promise resolved, the loop will end.
