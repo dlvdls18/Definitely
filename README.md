@@ -1,5 +1,13 @@
 # Definitely
-Call promise infinitely useful for Infinite Loading
+Call promise infinitely useful for Infinite Loading.
+
+```js
+Definitely(new Promise(function(resolve, reject) {
+  reject("Hello!");
+}), 500, function() {}, function(logs) {
+  console.log(logs);
+});
+```
 
 # Installation
 ```html
