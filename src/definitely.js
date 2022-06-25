@@ -1,4 +1,4 @@
-// https://github.com/dlvdls18/Definitely 
+// https://github.com/dlvdls18/Definitely
 function Definitely(promise, times, onsuccess, onerror, delay) {
   var runs = 0;
   var errlog = [];
